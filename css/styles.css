@@ -9,40 +9,64 @@ ul,ol {
 a {
     text-decoration:none;
 }
-.tel-mail {
-    color:#434455;
+.contacts {
+    font-style: normal;
 }
+.tel-mail {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 .tel-mail:focus,
 .tel-mail:hover {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color:#404bbf;
+}
 
+ 
+.st-section {
+    background-color:#2e2f42;
+}
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff; 
 }
 button {
     cursor:pointer;
-}
-.first-title {
-    color:#4D5AE5;
+    
+} 
+.order:hover,
+.order:focus {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color:#4D5AE5;;
 }
 a {
     color:#2E2F42;
 }
- .first-title {
-font-family: Raleway,sans-serif;
+.title  {
+font-family: "Raleway",sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 2.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
 }
-.second-title {
+.title .span-title {
     font-family: "Raleway", sans-serif ;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
@@ -54,21 +78,22 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.h1-title {
-    font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07143;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
-}
-.order {
+.header-item:hover {
     font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #fff;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    color: #404bbf;
 }
+.header-item:focus {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    color: #404bbf;
+}
+
+
 .advantages-titles {
     font-weight: 500;
 font-size: 20px;
@@ -82,10 +107,17 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+
+.rd-section {
+    background-color:#F4F4FD;
+}
+.team {
+    background-color:#FFFFFF;
+}
 .team-main {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
