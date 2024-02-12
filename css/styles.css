@@ -42,19 +42,22 @@ button {
     cursor:pointer;
     
 } 
-.order-button:hover,
+.order-button {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
 .order-button:focus {
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
 background-color:#4D5AE5;;
 }
 a {
     color:#2E2F42;
 }
 .logo  {
-font-family: "Raleway",sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -63,12 +66,6 @@ font-family: "Raleway",sans-serif;
     color: #4D5AE5;
 }
 .span-title {
-    font-family: "Raleway", sans-serif ;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 color: #2e2f42;
 }
  .nav-list .header-item {
@@ -109,9 +106,6 @@ color: #434455;
 }
 
 .rd-section {
-    background-color:#F4F4FD;
-}
-.team {
     background-color:#FFFFFF;
 }
 .team-main {
