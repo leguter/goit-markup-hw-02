@@ -107,9 +107,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
+.rd-section {
+   background-color:#F4F4FD;
+}
 .rd-section-item {
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
 }
 .team-main {
     font-weight: 700;
