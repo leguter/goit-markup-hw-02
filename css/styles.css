@@ -16,6 +16,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:#434455;
 }
 
 .tel-mail:focus,
@@ -48,10 +49,12 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    background-color:#4D5AE5;
 }
 
-.order-button:focus {
-background-color:#4D5AE5;;
+.order-button:focus,
+.order-button:hover {
+background-color:#404BBF;
 }
 a {
     color:#2E2F42;
@@ -105,11 +108,8 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.rd-section {
-    background-color:#F4F4FD;
-}
-.team-ul {
-    background-color: #FFFFFF;
+.rd-section-item {
+    background-color:#FFFFFF;
 }
 .team-main {
     font-weight: 700;
